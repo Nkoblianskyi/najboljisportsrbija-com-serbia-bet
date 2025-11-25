@@ -40,8 +40,8 @@ export function PonudeModal({ kuće }: PonudeModalProps) {
   if (!topKuća || !isOpen) return null
 
   return (
-    <div className="fixed inset-0 z-50 max-h-[90vh] overflow-y-auto flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm">
-      <div className="relative w-full max-w-lg bg-white rounded-2xl shadow-2xl overflow-hidden animate-in zoom-in-95 duration-300">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm">
+      <div className="relative max-h-[90vh] overflow-y-auto w-full max-w-lg bg-white rounded-2xl shadow-2xl overflow-hidden animate-in zoom-in-95 duration-300">
         {/* Close button */}
         <button
           onClick={() => setIsOpen(false)}
